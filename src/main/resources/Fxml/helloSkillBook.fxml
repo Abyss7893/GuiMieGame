@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/skillBook.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.skillBookController">
+   <children>
+      <AnchorPane fx:id="onShow" layoutX="540.0" layoutY="170.0" prefHeight="366.0" prefWidth="366.0" styleClass="on-show" />
+      <ScrollPane layoutX="110.0" layoutY="150.0" prefHeight="420.0" prefWidth="367.0">
+         <content>
+            <VBox>
+               <children>
+                  <AnchorPane prefHeight="112.0" prefWidth="332.0">
+                     <children>
+                        <StackPane prefHeight="112.0" prefWidth="332.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="400.0">
+                                 <children>
+                                    <Region fx:id="btn1" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn1" />
+                                    <Region fx:id="btn2" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn2" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                        <Label layoutX="189.0" layoutY="50.0" text="10" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="25.0" layoutY="50.0" text="99" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="112.0" prefWidth="332.0">
+                     <children>
+                        <StackPane prefHeight="112.0" prefWidth="332.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="400.0">
+                                 <children>
+                                    <Region fx:id="btn3" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn3" />
+                                    <Region fx:id="btn4" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn4" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                        <Label layoutX="197.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="33.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="112.0" prefWidth="332.0">
+                     <children>
+                        <StackPane prefHeight="112.0" prefWidth="332.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="400.0">
+                                 <children>
+                                    <Region fx:id="btn5" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn5" />
+                                    <Region fx:id="btn6" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn6" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                        <Label fx:id="lab6" layoutX="189.0" layoutY="50.0" text="10" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="33.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="112.0" prefWidth="332.0">
+                     <children>
+                        <StackPane prefHeight="112.0" prefWidth="332.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="400.0">
+                                 <children>
+                                    <Region fx:id="btn7" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn7" />
+                                    <Region fx:id="btn8" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn8" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                        <Label fx:id="lab8" layoutX="197.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lab7" layoutX="33.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="112.0" prefWidth="332.0">
+                     <children>
+                        <StackPane prefHeight="112.0" prefWidth="332.0">
+                           <children>
+                              <HBox prefHeight="100.0" prefWidth="400.0">
+                                 <children>
+                                    <Region fx:id="btn9" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn9" />
+                                    <Region fx:id="btn10" onMouseClicked="#select" prefHeight="112.0" prefWidth="166.0" styleClass="btn10" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                        <Label fx:id="lab10" layoutX="197.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lab9" layoutX="33.0" layoutY="50.0" text="5" textAlignment="CENTER" textFill="#efdea3">
+                           <font>
+                              <Font name="Segoe UI Symbol" size="28.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Text fill="#fff8cb" fontSmoothingType="LCD" layoutX="588.0" layoutY="581.0" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="0.0" text="/ 4" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="Calibri" size="44.0" />
+         </font>
+      </Text>
+      <Text fx:id="numb" fill="#fff8cb" fontSmoothingType="LCD" layoutX="554.0" layoutY="581.0" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri" size="44.0" />
+         </font>
+      </Text>
+      <StackPane fx:id="backBtn" layoutX="765.0" layoutY="548.0" onMouseClicked="#returnSection" prefHeight="45.0" prefWidth="45.0" styleClass="back-btn">
+         <children>
+            <Region layoutX="-1.0" prefHeight="45.0" prefWidth="45.0" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="atkBtn" layoutX="845.0" layoutY="548.0" onMouseClicked="#processAtk" prefHeight="45.0" prefWidth="45.0" styleClass="atk-btn">
+         <children>
+            <Region prefHeight="45.0" prefWidth="45.0" styleClass="atk-btn" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+.bg{
+    -fx-background-image: url("../background/chapter/chapter0.png");
+}
+
+.play1-btn{
+    -fx-background-color: null;
+}
+.play1-btn Region{
+    -fx-background-image: url("../icon/chapterIcon/ch1_1.png");
+}
+.play1-btn:hover Region{
+    -fx-background-image: url("../icon/chapterIcon/ch1_2.png");
+}
+
+.play2-btn{
+    -fx-background-color: null;
+}
+.play2-btn Region{
+    -fx-background-image: url("../icon/chapterIcon/ch2_1.png");
+}
+.play2-btn:hover Region{
+    -fx-background-image: url("../icon/chapterIcon/ch2_2.png");
+}
+
+.play3-btn{
+    -fx-background-color: null;
+}
+.play3-btn Region{
+    -fx-background-image: url("../icon/chapterIcon/ch3_1.png");
+}
+.play3-btn:hover Region{
+    -fx-background-image: url("../icon/chapterIcon/ch3_2.png");
+}

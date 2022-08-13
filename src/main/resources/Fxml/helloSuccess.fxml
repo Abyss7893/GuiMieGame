@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="back" stylesheets="@../css/success.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.successController">
+   <children>
+      <AnchorPane fx:id="bg" prefHeight="720.0" prefWidth="1000.0" styleClass="bg">
+         <children>
+            <StackPane layoutX="747.0" layoutY="164.0" prefHeight="70.0" prefWidth="70.0" styleClass="back-btn">
+               <children>
+                  <Region onMouseClicked="#returnSection" prefHeight="200.0" prefWidth="200.0" styleClass="back-btn" />
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

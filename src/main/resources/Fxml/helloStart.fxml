@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1000.0" stylesheets="@../css/GuiMie.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.startSceneController">
+   <children>
+      <StackPane fx:id="startButton" layoutX="297.0" layoutY="462.0" prefHeight="150.0" prefWidth="334.0" styleClass="play-btn">
+         <children>
+            <Region maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMousePressed="#nextChapterScene" prefHeight="73.0" prefWidth="295.0" styleClass="play-btn">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+            </Region>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

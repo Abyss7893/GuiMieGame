@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Pane" prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/stone.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.stoneController">
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="shadow">
+         <children>
+            <AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="bar" />
+            <AnchorPane fx:id="stoneImg" prefHeight="720.0" prefWidth="1000.0" styleClass="stone-pos">
+               <children>
+                  <AnchorPane fx:id="block" layoutX="441.0" layoutY="91.0" prefHeight="12.0" prefWidth="66.0" styleClass="move-block" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="own" prefHeight="720.0" prefWidth="1000.0" styleClass="own" />
+            <AnchorPane fx:id="movePointer" layoutX="335.0" layoutY="55.0" prefHeight="116.0" prefWidth="36.0" styleClass="atk-pointer" />
+         </children></AnchorPane>
+      <StackPane layoutX="850.0" layoutY="550.0" onMouseClicked="#attackStone" onMousePressed="#showActorAtk" onMouseReleased="#showActorSilent" prefHeight="100.0" prefWidth="100.0" styleClass="atk-btn">
+         <children>
+            <Region layoutX="850.0" layoutY="550.0" prefHeight="100.0" prefWidth="100.0" styleClass="atk-btn" />
+         </children>
+      </StackPane>
+      <StackPane layoutX="900.0" layoutY="20.0" onMouseClicked="#backToSection" prefHeight="70.0" prefWidth="70.0" styleClass="btn-back">
+         <children>
+            <Region layoutX="900.0" layoutY="20.0" prefHeight="70.0" prefWidth="70.0" styleClass="btn-back" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

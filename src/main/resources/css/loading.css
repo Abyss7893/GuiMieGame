@@ -1,0 +1,19 @@
+.sect{
+    -fx-background-image: url("../background/section/sectionbg.png");
+}
+.bg{
+    -fx-background-image: url("../background/Loading.gif");
+}
+.btn{
+    -fx-background-color: null;
+}
+.btn Region{
+    -fx-background-color: #8e5e27;
+    -fx-shape: "M512 64C264.8 64 64 264.8 64 512s200.8 448 448 448 448-200.8 448-448S759.2 64 512 64zM398.4 784l-45.6-45.6L580 512 353.6 285.6l45.6-45.6 272 272-272.8 272z";
+}
+.btn:hover Region{
+    -fx-background-color: derive(#8e5e27,+20%);
+}
+.btn:pressed Region{
+    -fx-background-color: #d9c296;
+}

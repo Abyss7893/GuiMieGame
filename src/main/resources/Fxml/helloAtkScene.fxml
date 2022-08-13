@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="bg" prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/atkScene.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.startAttackController">
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="shadow" />
+      <AnchorPane fx:id="enemy" prefHeight="720.0" prefWidth="1000.0" styleClass="enemy" />
+      <AnchorPane fx:id="own" prefHeight="720.0" prefWidth="1000.0" styleClass="own" />
+      <AnchorPane fx:id="animEffectPane" prefHeight="720.0" prefWidth="1000.0" />
+      <AnchorPane fx:id="ownIcon" prefHeight="720.0" prefWidth="1000.0" styleClass="ownIcon" />
+      <AnchorPane fx:id="enemyIcon" prefHeight="720.0" prefWidth="1000.0" />
+      <AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="atkPane">
+         <children>
+            <Region fx:id="ownBlood" layoutX="164.0" layoutY="78.0" prefHeight="16.0" prefWidth="196.0" styleClass="bloodOwn" />
+            <Region fx:id="enemyBlood" layoutX="639.0" layoutY="78.0" prefHeight="16.0" prefWidth="196.0" styleClass="bloodEnemy" />
+            <StackPane layoutX="40.0" layoutY="603.0" prefHeight="33.0" prefWidth="33.0" styleClass="atk-icon">
+               <children>
+                  <Region prefHeight="55.0" prefWidth="55.0" styleClass="atk-icon" />
+               </children>
+            </StackPane>
+            <StackPane layoutX="40.0" layoutY="650.0" prefHeight="33.0" prefWidth="33.0" styleClass="agi-icon">
+               <children>
+                  <Region prefHeight="35.0" prefWidth="35.0" styleClass="agi-icon" />
+               </children>
+            </StackPane>
+            <Label fx:id="ownLife" layoutX="265.0" layoutY="42.0" text="450" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Symbol" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="enemyLife" layoutX="690.0" layoutY="42.0" text="800" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Symbol" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="atkNum" layoutX="82.0" layoutY="603.0" text="120" textFill="#efa62f">
+               <font>
+                  <Font name="Segoe UI Symbol" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="agiNum" layoutX="82.0" layoutY="650.0" text="200" textFill="#efa62f">
+               <font>
+                  <Font name="Segoe UI Symbol" size="25.0" />
+               </font>
+            </Label>
+            <StackPane layoutX="932.0" layoutY="588.0" prefHeight="43.0" prefWidth="43.0" styleClass="return-btn">
+               <children>
+                  <Region onMouseClicked="#returnSection" prefHeight="40.0" prefWidth="40.0" styleClass="return-btn" />
+               </children>
+            </StackPane>
+            <StackPane layoutX="932.0" layoutY="651.0" prefHeight="43.0" prefWidth="43.0" styleClass="restart-btn">
+               <children>
+                  <Region onMouseClicked="#restartAtk" prefHeight="200.0" prefWidth="200.0" styleClass="restart-btn" />
+               </children>
+            </StackPane>
+            <AnchorPane layoutX="177.0" layoutY="588.0" prefHeight="112.0" prefWidth="166.0">
+               <children>
+                  <StackPane prefHeight="112.0" prefWidth="166.0" styleClass="btn1">
+                     <children>
+                        <Region fx:id="btn1" onMouseEntered="#btnEntered" onMouseExited="#btnExited" onMousePressed="#btnPressed" onMouseReleased="#btnExited" prefHeight="200.0" prefWidth="200.0" styleClass="btn1" />
+                     </children>
+                  </StackPane>
+                  <Label fx:id="lab1" layoutX="26.0" layoutY="51.0" text="00" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Symbol" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="365.0" layoutY="588.0" prefHeight="112.0" prefWidth="166.0">
+               <children>
+                  <StackPane prefHeight="112.0" prefWidth="166.0" styleClass="btn2">
+                     <children>
+                        <Region fx:id="btn2" onMouseEntered="#btnEntered" onMouseExited="#btnExited" onMousePressed="#btnPressed" onMouseReleased="#btnExited" prefHeight="112.0" prefWidth="166.0" styleClass="btn2" />
+                     </children>
+                  </StackPane>
+                  <Label fx:id="lab2" layoutX="32.0" layoutY="51.0" text="6" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Symbol" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="555.0" layoutY="588.0" prefHeight="112.0" prefWidth="166.0">
+               <children>
+                  <StackPane prefHeight="112.0" prefWidth="166.0" styleClass="btn3">
+                     <children>
+                        <Region fx:id="btn3" onMouseEntered="#btnEntered" onMouseExited="#btnExited" onMousePressed="#btnPressed" onMouseReleased="#btnExited" prefHeight="200.0" prefWidth="200.0" styleClass="btn3" />
+                     </children>
+                  </StackPane>
+                  <Label fx:id="lab3" layoutX="33.0" layoutY="51.0" text="7" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Symbol" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="742.0" layoutY="588.0" prefHeight="112.0" prefWidth="166.0">
+               <children>
+                  <StackPane prefHeight="112.0" prefWidth="166.0" styleClass="btn4">
+                     <children>
+                        <Region fx:id="btn4" onMouseEntered="#btnEntered" onMouseExited="#btnExited" onMousePressed="#btnPressed" onMouseReleased="#btnExited" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+                  <Label fx:id="lab4" layoutX="33.0" layoutY="51.0" text="5" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI Symbol" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <StackPane layoutX="160.0" layoutY="103.0" prefHeight="34.0" prefWidth="34.0" styleClass="weak">
+               <children>
+                  <Region fx:id="ownWeakness" prefHeight="34.0" prefWidth="34.0" styleClass="weak" />
+               </children>
+            </StackPane>
+            <StackPane layoutX="205.0" layoutY="103.0" prefHeight="34.0" prefWidth="34.0" styleClass="debar">
+               <children>
+                  <Region fx:id="ownDebarment" prefHeight="34.0" prefWidth="34.0" styleClass="debar" />
+               </children>
+            </StackPane>
+            <StackPane layoutX="750.0" layoutY="103.0" prefHeight="34.0" prefWidth="34.0" styleClass="debar">
+               <children>
+                  <Region fx:id="enemyDebarment" prefHeight="34.0" prefWidth="34.0" styleClass="debar" />
+               </children>
+            </StackPane>
+            <StackPane layoutX="795.0" layoutY="103.0" prefHeight="34.0" prefWidth="34.0" styleClass="weak">
+               <children>
+                  <Region fx:id="enemyWeakness" prefHeight="34.0" prefWidth="34.0" styleClass="weak" />
+               </children>
+            </StackPane>
+            <Label fx:id="enemyShow" layoutX="575.0" layoutY="190.0" prefHeight="60.0" prefWidth="110.0" text="Miss" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="MS UI Gothic" size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="ownShow" layoutX="340.0" layoutY="190.0" prefHeight="60.0" prefWidth="110.0" text="Miss" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="MS UI Gothic" size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="sjsb" layoutX="520.0" layoutY="228.0" prefHeight="60.0" prefWidth="110.0" text="Miss" textFill="RED" visible="false">
+               <font>
+                  <Font name="MS UI Gothic" size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="sjnb" layoutX="593.0" layoutY="269.0" prefHeight="60.0" prefWidth="110.0" text="Miss" textFill="RED" visible="false">
+               <font>
+                  <Font name="MS UI Gothic" size="44.0" />
+               </font>
+            </Label>
+            <Label fx:id="sjsbsb" layoutX="531.0" layoutY="306.0" prefHeight="60.0" prefWidth="110.0" text="Miss" textFill="RED" visible="false">
+               <font>
+                  <Font name="MS UI Gothic" size="44.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

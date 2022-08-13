@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/specialBook.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.specialBookController">
+   <children>
+      <StackPane fx:id="atkBtn" layoutX="855.0" layoutY="558.0" onMouseClicked="#processAtk" prefHeight="45.0" prefWidth="45.0" styleClass="atk-btn">
+         <children>
+            <Region prefHeight="45.0" prefWidth="45.0" styleClass="atk-btn" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="backBtn" layoutX="775.0" layoutY="558.0" onMouseClicked="#returnSection" prefHeight="45.0" prefWidth="45.0" styleClass="back-btn">
+         <children>
+            <Region layoutX="-1.0" prefHeight="45.0" prefWidth="45.0" styleClass="back-btn" />
+         </children>
+      </StackPane>
+      <AnchorPane fx:id="skill1" layoutX="97.0" layoutY="170.0" prefHeight="366.0" prefWidth="366.0" styleClass="skill1" />
+      <AnchorPane fx:id="skill2" layoutX="540.0" layoutY="170.0" prefHeight="366.0" prefWidth="366.0" styleClass="skill2" />
+   </children>
+</AnchorPane>

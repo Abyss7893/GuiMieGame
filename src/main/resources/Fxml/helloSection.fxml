@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="Pane" prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/section.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.startSectionController">
+   <children>
+      <StackPane fx:id="btn1" layoutX="178.0" layoutY="610.0" onMousePressed="#onShowRightAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn1">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn1" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn2" layoutX="233.0" layoutY="408.0" onMousePressed="#onShowRightAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn2">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn2" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn3" layoutX="151.0" layoutY="172.0" onMousePressed="#onShowRightAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn3">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn3" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn4" layoutX="398.0" layoutY="197.0" onMousePressed="#onShowRightAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn4">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn4" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn5" layoutX="464.0" layoutY="390.0" onMousePressed="#onShowRightAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn5">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn5" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn6" layoutX="698.0" layoutY="533.0" onMousePressed="#onShowLeftAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn6">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn6" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn7" layoutX="756.0" layoutY="342.0" onMousePressed="#onShowLeftAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn7">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn7" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn8" layoutX="851.0" layoutY="173.0" onMousePressed="#onShowLeftAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn8">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn8" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn9" layoutX="662.0" layoutY="104.0" onMousePressed="#onShowLeftAnim" prefHeight="55.0" prefWidth="55.0" styleClass="btn9">
+         <children>
+            <Region prefHeight="55.0" prefWidth="55.0" styleClass="btn9" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="returnBtn" layoutX="906.0" layoutY="20.0" onMousePressed="#returnChapter" prefHeight="50.0" prefWidth="50.0" styleClass="btn-back">
+         <children>
+            <Region prefHeight="50.0" prefWidth="50.0" styleClass="btn-back" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

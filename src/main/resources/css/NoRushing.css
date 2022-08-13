@@ -1,0 +1,19 @@
+.bg{
+    -fx-background-image: url("../icon/NoRushing.png");
+}
+
+.btn{
+    -fx-background-color: null;
+}
+
+.btn Region{
+    -fx-background-image: url("../icon/basicLogo/RESTART1.png");
+}
+
+.btn:hover Region{
+    -fx-background-image: url("../icon/basicLogo/RESTART2.png");
+}
+
+.btn:pressed Region{
+    -fx-background-image: url("../icon/basicLogo/RESTART3.png");
+}

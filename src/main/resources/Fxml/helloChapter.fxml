@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Pane" prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/chapter.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.startChapterController">
+   <children>
+      <StackPane fx:id="btn1" layoutX="61.0" layoutY="523.0" onMouseEntered="#showImageCh" onMouseExited="#showCh0" onMousePressed="#NextSection" prefHeight="56.0" prefWidth="242.0" styleClass="play1-btn">
+         <children>
+            <Region prefHeight="95.0" prefWidth="345.0" styleClass="play1-btn" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn2" layoutX="379.0" layoutY="523.0" onMouseEntered="#showImageCh" onMouseExited="#showCh0" onMousePressed="#NoNext" prefHeight="56.0" prefWidth="242.0" styleClass="play2-btn">
+         <children>
+            <Region prefHeight="105.0" prefWidth="130.0" />
+         </children>
+      </StackPane>
+      <StackPane fx:id="btn3" layoutX="686.0" layoutY="523.0" onMouseEntered="#showImageCh" onMouseExited="#showCh0" onMousePressed="#NoNext" prefHeight="56.0" prefWidth="242.0" styleClass="play3-btn">
+         <children>
+            <Region prefHeight="200.0" prefWidth="200.0" styleClass="play3-btn" />
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

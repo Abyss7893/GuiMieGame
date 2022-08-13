@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane styleClass="sect" stylesheets="@../css/loading.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.loadingController">
+   <children>
+      <AnchorPane fx:id="Pane" opacity="0.85" prefHeight="720.0" prefWidth="1000.0" styleClass="bg" stylesheets="@../css/loading.css">
+         <children>
+            <StackPane fx:id="btn" layoutX="855.0" layoutY="618.0" onMouseClicked="#access" prefHeight="70.0" prefWidth="70.0" styleClass="btn" visible="false">
+               <children>
+                  <Region prefHeight="70.0" prefWidth="70.0" styleClass="btn" />
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

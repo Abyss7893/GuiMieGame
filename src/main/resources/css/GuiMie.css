@@ -1,0 +1,16 @@
+.root{
+    -fx-background-color: null;
+    -fx-background-image: url("../background/startGame.gif");
+}
+
+.play-btn{
+    -fx-background-color: null;
+}
+
+.play-btn Region{
+    -fx-background-image: url("../icon/basicLogo/startGame1.png");
+}
+
+.play-btn:hover Region{
+    -fx-background-image: url("../icon/basicLogo/startGame2.png");
+}

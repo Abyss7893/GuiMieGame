@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Pane" prefHeight="720.0" prefWidth="1000.0" styleClass="shadow" stylesheets="@../css/successStone.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UI.successStoneController">
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="1000.0" styleClass="bg">
+         <children>
+            <StackPane layoutX="900.0" layoutY="20.0" onMouseClicked="#retunSection" prefHeight="70.0" prefWidth="70.0" styleClass="back-btn">
+               <children>
+                  <Region layoutX="900.0" layoutY="20.0" prefHeight="70.0" prefWidth="70.0" styleClass="back-btn" />
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
